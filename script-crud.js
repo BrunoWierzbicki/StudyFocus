@@ -36,7 +36,7 @@ botao.classList.add('app_button-edit');
 
 botao.onclick = () => {
     //debugger
-    const novaDescricao = prompt("Qual é o novo nome da tarfea?");
+    const novaDescricao = prompt("Qual é o novo nome da tarefa?");
     //dconsole.log('Nova descrição da tarefa: ', novaDescricao)
     if (novaDescricao) { 
         
@@ -49,7 +49,7 @@ botao.onclick = () => {
 }
 
 const imagemBotao = document.createElement('img');
-imagemBotao.setAttribute('src', './imagens/edit.png'):
+imagemBotao.setAttribute('src', './imagens/edit.png')
 botao.append(imagemBotao)
 
 li.append(svg)
